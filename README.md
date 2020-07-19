@@ -48,4 +48,4 @@ $ npm install
 - [Github](https://github.com/GabeSucich)
 - [LinkedIn](www.linkedin.com/in/gabriel-sucich-6a28a71a8)
 
-See also the list of [contributors](https://github.com/GabeSucich/TeamProfileGenerator/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/GabeSucich/NoteTaker/contributors) who participated in this project.
