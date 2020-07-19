@@ -40,6 +40,7 @@ app.post("/api/notes", (req, res) => {
 app.delete("/api/notes/:id", (req, res) => {
     var id = parseInt(req.params.id)
     delete_note(id)
+    res.end()
 
 })
 
@@ -64,7 +65,7 @@ function get_all_ids(notes_array) {
 
 function get_next_id(notes_array) {
     var ids = get_all_ids(notes_array)
-    if (ids === []) {
+    if (ids.length === 0) {
         return 1
     }
     else {
@@ -84,6 +85,7 @@ function update_notes(updated) {
 function add_note(new_note) {
     var notes = get_notes()
     var new_id = get_next_id(notes)
+    console.log(new_id)
     new_note['id'] = new_id
     notes.push(new_note)
     update_notes(notes)
@@ -100,7 +102,3 @@ function delete_note(id) {
     update_notes(notes)
 
 }
-
-
-
-
