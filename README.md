@@ -1,11 +1,15 @@
 # NoteTaker
 
+This application provides users the ability to create and keep track of notes with a polished interface. It utilizes express.js to pair client-side input and activity with requests to a basic server which can serve up current notes, and a note, or delete a note from the user's collection. The very basic note database accessed by the server allows for persistence of user notes across sessions.
+
 ## Contents
 
 * [Installing](#installing)
-* [Testing](#testing)
 * [Built With](#built-with)
-* [Application in Action](#application-in-action)
+* [Application Demo](#application-in-action)
+* [See Deployed App](https://lit-sierra-39833.herokuapp.com/)
+* [Contributors](#contributors)
+
 ## Installing
 
 1. To get access to this project for development and testing on your local machine, run the following command in terminal to clone onto your local machine:
@@ -32,6 +36,16 @@ $ npm install
 
 ![Project demo](assets/app.gif)
 
-### [See the Deployed Application]
+### [See the deployed application here](https://lit-sierra-39833.herokuapp.com/)
 
+## Contributors
 
+### Gabriel Sucich
+
+![Profile](assets/profile.png)
+
+- [Portfolio](https://gabesucich.github.io/UpdatedPortfolio/)
+- [Github](https://github.com/GabeSucich)
+- [LinkedIn](www.linkedin.com/in/gabriel-sucich-6a28a71a8)
+
+See also the list of [contributors](https://github.com/GabeSucich/TeamProfileGenerator/contributors) who participated in this project.
