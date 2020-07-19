@@ -77,8 +77,6 @@ function get_next_id(notes_array) {
 function update_notes(updated) {
     fs.writeFile(path.join(__dirname, "db", "db.json"), JSON.stringify(updated), err => {
         if (err) throw err
-
-        console.log("Successfully updated notes")
     })
 }
 
